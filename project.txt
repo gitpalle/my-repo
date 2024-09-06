@@ -1,7 +1,17 @@
  System.out.println("Created schedule...");
         
         // 5. Start the schedule
-        
+        # feature1 added by mahi in development project on 6th september 2024
+         // 6. Use object key above to get schedule state
+        oo = adminPort.getState(
+          "schedule",
+          objectKey,
+          null, // request all state properties
+          credentials,
+          null,
+          "en"
+        );
+        # end feature1 
         // Create object key for schedule name
         ObjectKey objectKey = new ObjectKey();
         AdminKeyPair keyPair = new AdminKeyPair();
