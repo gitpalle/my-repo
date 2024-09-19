@@ -3,3 +3,10 @@ healthcare domine project in progress
 
 jenkins are created in auto bild job
 it  is in jenkins 
+
+
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+}
